@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assertion.ValidationUsingAssert">
+      <class name="test.TestPagewithoutFactory">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="titleValidationTest2"/>
+          <include name="verifylogin"/>
         </methods>
-      </class> <!-- Assertion.ValidationUsingAssert -->
+      </class> <!-- test.TestPagewithoutFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
